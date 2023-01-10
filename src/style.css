@@ -1,0 +1,64 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.weather-container{
+  background-image: url('https://i.insider.com/5ed7da3b2618b908386c02d6?width=1000&format=jpeg&auto=webp');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  line-height: 1.5rem;
+}
+
+.weather-card{
+  border-radius: 10px;
+  backdrop-filter: blur(3px);
+  height: 260px;
+  width: 350px;
+  padding: 30px;
+  background-color: rgba(0,0,0, 0.8);
+  border: 1px solid rgba(255,255,255,0.5);
+}
+
+.input{
+  border: none;
+  width: 220px;
+  padding: 8px;
+  border-radius: 15px;
+  margin-right: 10px;
+  background-color: rgba(0,0,0, 0.5);
+  color: white;
+  outline: none;
+}
+
+.input-button{
+  background-color: rgba(0,0,0, 0.5);
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 15px;
+  transition: background-color 0.2s ease-in;
+}
+.input-button:hover{
+  background-color: rgba(0,0,0, 0.9);
+}
+
+.input-div{
+  margin-bottom: 15px;
+}
+
+#temperature{
+  font-size: 1.4rem;
+}
